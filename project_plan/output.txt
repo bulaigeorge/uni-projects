@@ -1,0 +1,62 @@
+
+Time :0
+Task 1 started.
+Task 2 started.
+Current Staff: 6
+
+Time :3
+Task 1 finished.
+Current Staff: 2
+
+Time :5
+Task 3 started.
+Task 4 started.
+Task 2 finished.
+Current Staff: 6
+
+Time :6
+Task 5 started.
+Task 3 finished.
+Current Staff: 7
+
+Time :7
+Task 6 started.
+Task 4 finished.
+Current Staff: 7
+
+Time :10
+Task 5 finished.
+Current Staff: 4
+
+Time :15
+Task 7 started.
+Task 8 started.
+Task 6 finished.
+Current Staff: 5
+
+Time :16
+Task 8 finished.
+Current Staff: 2
+
+Time :18
+Task 7 finished.
+Current Staff: 0
+
+**** Shortest possible project execution is 18 ****
+
+ Id: 1
+ Name: 1 Time: 3 Staff: 4 Earliest start: 0 Latest start: 0 Slack: 2 Dependencies : [3,]
+ Id: 2
+ Name: 2 Time: 5 Staff: 2 Earliest start: 0 Latest start: 0 Slack: 0 Dependencies : [3,4,]
+ Id: 3
+ Name: 3 Time: 1 Staff: 2 Earliest start: 5 Latest start: 5 Slack: 0 Dependencies : [5,6,]
+ Id: 4
+ Name: 4 Time: 2 Staff: 4 Earliest start: 5 Latest start: 5 Slack: 0 Dependencies : [6,]
+ Id: 5
+ Name: 5 Time: 4 Staff: 3 Earliest start: 6 Latest start: 11 Slack: 5 Dependencies : [7,]
+ Id: 6
+ Name: 6 Time: 8 Staff: 4 Earliest start: 7 Latest start: 7 Slack: 0 Dependencies : [7,8,]
+ Id: 7
+ Name: 7 Time: 3 Staff: 2 Earliest start: 15 Latest start: -1 Slack: -1 Dependencies : []
+ Id: 8
+ Name: 8 Time: 1 Staff: 3 Earliest start: 15 Latest start: -1 Slack: -1 Dependencies : []
